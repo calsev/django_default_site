@@ -25,7 +25,9 @@ SECRET_KEY = 'zfn=((%i9xejxh7lh=jta@r5tx!bavi70$qc266p$&-zu1uygt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*'
+]
 
 
 # Application definition
